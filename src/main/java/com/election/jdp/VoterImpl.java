@@ -5,5 +5,11 @@
  */
 package com.election.jdp;
 
+import java.util.Scanner;
+
 public class VoterImpl {
+    public static void main ( String[] args ) {
+        Scanner scanner = new Scanner ( System.in );
+        
+    }
 }
