@@ -21,4 +21,11 @@ public class Voter {
         this.Age = age;
     }
     
+    public String getName ( ) {
+        return Name;
+    }
+    
+    public int getAge ( ) {
+        return Age;
+    }
 }
