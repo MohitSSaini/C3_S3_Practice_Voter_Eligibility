@@ -6,4 +6,8 @@
 package com.election.jdp;
 
 public class Voter {
+    String Name;
+    int Age;
+    
+    
 }
