@@ -24,7 +24,7 @@ public class Voter {
      *
      * @return The name of the person.
      */
-    public String getName ( String mohit ) {
+    public String getName ( ) {
         return Name;
     }
     
@@ -46,7 +46,7 @@ public class Voter {
      *
      * @return The age of the person.
      */
-    public int getAge ( int i ) {
+    public int getAge ( ) {
         return Age;
     }
     
@@ -60,13 +60,13 @@ public class Voter {
     }
     
     // This function returns the value of the variable Age
-    public String getAgeCriteria ( int age , String name ) {
-        if ( age >= Voter.VOTER_ElIGIBLE_AGE ) {
-            return name + " Is Eligible to vote ";
-        } else if ( age < 0 ) {
+    public String getAgeCriteria ( ) {
+        if ( Age >= Voter.VOTER_ElIGIBLE_AGE ) {
+            return Name + " Is Eligible to vote ";
+        } else if ( Age <= 0 ) {
             return " Age can't be negative or zero ";
         } else {
-            return name + " Is not Eligible to vote ";
+            return Name + " Is not Eligible to vote ";
         }
     }
 }
