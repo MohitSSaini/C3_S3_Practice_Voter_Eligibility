@@ -12,4 +12,13 @@ public class Voter {
     
     public Voter ( ) {
     }
+    
+    public void setName ( String name ) {
+        this.Name = name;
+    }
+    
+    public void setAge ( int age ) {
+        this.Age = age;
+    }
+    
 }
